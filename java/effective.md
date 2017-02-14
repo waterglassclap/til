@@ -156,8 +156,70 @@ class Circle extends Figure {
 
 ### 제네릭
 제네릭 : 선언부에 형인자가 포함된 클래스나 인터페이스
+자바에서는 관습상 형인자를 T가 아니라 E로 쓴다?
 
-#### Rule 23. 새 코드에는 무인자 제네리리
+#### Rule 23. 새 코드에는 무인자 제네릭 자료형을 사용하지 마라
+
+#### Rule 24. 무점검 경고 (unchecked warning)을 제거하라
+
+#### Rule 25. 배열 대신 리스트를 써라
+
+#### Rule 26. 가능하면 제네릭 자료형으로 만들 것
+
+#### Rule 27. 가능하면 제네릭 메서드로 만들 것
+
+#### Rule 28. 한정적 와일드카드를 써서 API 유연성을 높여라
+PECS : (Produce - Exdends, Consumer - Super)
+
+```java
+public void pushAll(Iterable<? extends E> src) {
+    for (E e : src)
+        push(e);
+}
+...
+public void popAll(Collection<? super E> dst) {
+    while (!isEmpty())
+        dst.add(pop());
+}
+```
+
+#### Rule 29. 형 안전 다형성 컨테이너를 쓰면 어떨지 따져보라
+```java
+// 형 안전 다형성 (heterogeneous) 컨테이너 패턴 - API
+public class Favorites {
+    public <T> void putFavorite(Class<T> type, T instance);
+    public <T> T getFavorite(Class<T> type);
+}
+
+// 형 안전 다형성 (heterogeneous) 컨테이너 패턴 - 구현
+public class Favorites {
+    private Map<Class<?>, Object> favorites = new HashMap<Class<?>, Object>();
+    
+    public <T> void putFavorite(Class<T> type, T instance) {
+        if (type == null) 
+            throw new NullPointerException("Type is null");
+        favorites.put(type, type.cast(instance));
+    }
+
+    public <T> T getFavorite(Class<T> type, T instance) {
+        return type.cast(favorites.get(type));
+    }
+}
+
+// 형 안전 다형성 (heterogeneous) 컨테이너 패턴 - client
+public static void main(String[] args) {
+    Favorites f = new Favorites();
+    f.putFavorite(String.class, "Java");
+    f.putFavorite(Integer.class, "0xcafebabe");
+    f.putFavorite(Class.class, Favorites.class);
+
+    String favoriteString = f.getFavorite(String.class);
+    ...
+}
+```
+이떄 Favorites 객체는 형 안전성을 보장한다. 다시말해, String 을 요청했는데 Integer를 반환한다거나 하지 않는다. 또한 다형성을 갖고 있다.
+
+
 
 
 
