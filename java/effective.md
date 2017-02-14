@@ -2,7 +2,7 @@
 
 #### Rule 1. 생성자 대신 정적 팩토리 메서드를 사용할 수 없는지 생각해보라
 
-일반적인 생성자 함수 방식
+**일반적인 생성자 함수 방식**
 ```java
 public class Test{
 public Test(){
@@ -10,7 +10,7 @@ public Test(){
 }
 ```
 
-정적 팩토리 메서드 방식
+**정적 팩토리 메서드 방식**
 ```java
 public class Test{
 	private static final Test INSTANCE = new Test();
