@@ -47,10 +47,19 @@ public class Test{
 #### Rule 7. 종료자 사용을 피하라.
 
 
+
+
 ### 모든 객체의 공통 메서드
 
 #### Rule 8. equals를 재정의할 때는 일반 규약을 따르라
 
+** 일반 규약 (Java SE6) **
+
+- 반사성 (reflexive) : null 이 아닌 참조 x가 있을 때, x.equals(x)는 true를 반환한다.
+- 대칭성 (symmetric) : null 이 아닌 참조 x와 y가 있을 때, x.equals(y)는 y.equals(x)가 true일 때만 true를 반환한다.
+- 추이성 (transitive) : null 이 아닌 참조 x, y, z가 있을 때, x.equals(y)가 true이고 y.equals(z)가 true이면 x.equals(z)도 true이다.
+- 일관성 (consistent) : null이 아닌 참조 x와 y가 있을 때, equals를 통해 비교되는 정보에 아무 변화가 없다면, x.equals(y) 호출 결과는 호출 횟수에 상관없이 항상 같아야 한다.
+- null이 아닌 참조 x에 대해서, x.equals(null)은 항상 false이다.
 
 
 #### Rule 8. equals를 재정의할 때는 일반 규약을 따르라
