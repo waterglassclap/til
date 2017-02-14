@@ -55,7 +55,7 @@ Even if specific node **cannot reach another node**, service must be served
 - ![#15FFFF](https://placehold.it/15/15FFFF/000000?text=+) Terrastore
 - ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) Scalaris
 - ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) Redis
-- ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) Memcache
+- ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) Memcached
 
 >  C : 모든 사람에게 동일한 대답을 해준다. 그래서 동기화 시간이 생기는데, 때문에 좀 느릴 수 있다.
 
