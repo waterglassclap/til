@@ -2,7 +2,6 @@
 분산 시스템에서는 세가지 속성을 동시에 모두 갖는 것이 불가능하다
 
   - Consistency
-
   - Availability
 
   - Partitions Tolerance
