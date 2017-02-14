@@ -247,6 +247,14 @@ public enum Ensemble {
 }
 ```
 
+#### Rule 32. 비트 필드(bit field) 대신 EnumSet을 사용하라
+
+#### Rule 33. ordinal을 배열 첨자로 사용하는 대신 EnumMap을 이용하라
+
+#### Rule 34. 확장 가능한 enum을 만들어야 한다면 인터페이스를 이용하라
+
+
+
 
 
 
