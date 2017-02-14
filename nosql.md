@@ -12,22 +12,16 @@ Every node must **show** same data at same time
 
 
 #### Availability
-
 Even if specific node **fails**, service must be served
-
  kinda tricky?
 
 
 #### Partitions Tolerance
-
 Even if specific node **cannot reach another node**, service must be served
 
 ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Relational
-
 ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) Key-value
-
 ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Column-oriented
-
 ![#15FFFF](https://placehold.it/15/15FFFF/000000?text=+) Document-oriented
 
 
