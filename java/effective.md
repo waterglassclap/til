@@ -79,6 +79,31 @@ public interface Comparable<T> {
 public final class CaseInsensitiveString implements Comparable<CaseInsensitiveString> { ... }
 ```
 
+<br/>
+
+### 클래스와 인터페이스스
+
+#### Rule 13. 클래스와 멤버의 접근 권한은 최소화하라
+
+#### Rule 14. public class 안에는 public field를 두지 말고 접근자 메서드를 사용하라
+
+#### Rule 15. 변경 가능성을 최소화하라
+
+#### Rule 16. 계승하는 대신 구성하라
+
+#### Rule 17. 계승을 위한 설계와 문서를 갖추거나, 그럴 수 없다면 계승을 금지하라
+
+#### Rule 18. 추상 클래스 대신 인터페이스를 사용하라
+
+#### Rule 19. 인터페이스는 자료형을 정의할 때만 사용하라
+
+#### Rule 20. 태그 달린 클래스 대신 클래스 계층을 활용하라
+
+#### Rule 21. 전략을 표현하고 싶을 때는 함수 객체를 사용하라
+
+#### Rule 22. public class 안에는 public field를 두지 말고 접근자 메서드를 사용하라
+
+
 
 
 
