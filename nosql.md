@@ -36,7 +36,9 @@ Even if specific node **cannot reach another node**, service must be served
 - ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Vertica
 
 >  C : 모든 사람에게 동일한 대답을 해준다. 그래서 동기화 시간이 생기는데, 때문에 좀 느릴 수 있다.
+
 >  A : 노드가 죽어도 서비스가 된다
+
 >  P! : 네트워크 단절나면 서비스가 안된다
 
 
@@ -54,7 +56,9 @@ Even if specific node **cannot reach another node**, service must be served
 - ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) Memcache
 
 >  C : 모든 사람에게 동일한 대답을 해준다. 그래서 동기화 시간이 생기는데, 때문에 좀 느릴 수 있다.
+
 >  !A : 노드가 죽으면 서비스가 안된다
+
 >  P : 네트워크 단절이 나도 노드가 살아만 있으면 서비스가 가능은 하다
 
 
@@ -66,6 +70,8 @@ Even if specific node **cannot reach another node**, service must be served
 - ![#15FFFF](https://placehold.it/15/15FFFF/000000?text=+) CouchDB
 - ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) Voldemort
 
-> 가. !C : 사용자의 요청들에 다른 대답을 할 가능성이 있다.
-> 나. A : 여러 노드간에 데이터가 좀 달라도 상관없다고 했으니 (C를 포기) 하나의 노드에 문제가 있어도 그냥 리턴한다.
-> 다. P : 네트워크가 끊어져도 서비스에 문제가 없고, 어짜피 C를 포기했으니 커넥션에 문제가 있는 놈은 없애버리고 잘되는 놈으로만 서비스한다.
+> !C : 사용자의 요청들에 다른 대답을 할 가능성이 있다.
+
+> A : 여러 노드간에 데이터가 좀 달라도 상관없다고 했으니 (C를 포기) 하나의 노드에 문제가 있어도 그냥 리턴한다.
+
+> P : 네트워크가 끊어져도 서비스에 문제가 없고, 어짜피 C를 포기했으니 커넥션에 문제가 있는 놈은 없애버리고 잘되는 놈으로만 서비스한다.
