@@ -26,6 +26,7 @@ Even if specific node **cannot reach another node**, service must be served
 ![#15FFFF](https://placehold.it/15/15FFFF/000000?text=+) Document-oriented
 
 
+
 #### CA
 **pros :** show same data at same time, even if one node fails, service can be served
 **cons :** If specific node cannot reach another node, service cannot be served
@@ -40,6 +41,7 @@ Even if specific node **cannot reach another node**, service must be served
 >  A : 노드가 죽어도 서비스가 된다
 
 >  P! : 네트워크 단절나면 서비스가 안된다
+
 
 
 #### CP
@@ -60,6 +62,7 @@ Even if specific node **cannot reach another node**, service must be served
 >  !A : 노드가 죽으면 서비스가 안된다
 
 >  P : 네트워크 단절이 나도 노드가 살아만 있으면 서비스가 가능은 하다
+
 
 
 #### AP
