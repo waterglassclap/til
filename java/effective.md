@@ -250,21 +250,42 @@ public enum Ensemble {
 #### Rule 32. 비트 필드(bit field) 대신 EnumSet을 사용하라
 
 #### Rule 33. ordinal을 배열 첨자로 사용하는 대신 EnumMap을 이용하라
+```java
+// EnumMap을 중첩해서 enum 쌍에 대응되는 데이터를 저장한다
+public enum Phase {
+    SOLID, LIQUID, GAS;
+
+    public enum Transition {
+        MELT(SOLID, LIQUID), FREEZE(LIQUID, SOLID),
+        BOIL(LIQUID, GAS), CONDENSE(GAS, LIQUID),
+        SUBLIME(SOLID, GAS), DEPOSIT(GAS, SOLID);
+        
+        private final Phase src;
+        private final Phase dst;
+
+        Transition(Phase src, Phase dst) {
+            this.src = src;
+            this.dst = dst;
+        }
+
+        // 상전이 맵 초기화
+        private static final Map<Phase, Map<Phase, Transition>> m = new EnumMap<Phase, Map<Phase, Transition>> (Phase.class);
+        
+        static {
+            for (Phase p : Phase.values())
+                m.put(p, new EnumMap<Phase, Transition> (Phase.class));
+            for (Transition p : Transition.values())
+                m.get(trans.src).put(trans.dst, trans);
+        }
+
+        public static transition from(Phase src, Phase dst) {
+            return m.get(src).get(dst);
+        }
+    }
+}
+```
 
 #### Rule 34. 확장 가능한 enum을 만들어야 한다면 인터페이스를 이용하라
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
