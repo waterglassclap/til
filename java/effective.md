@@ -68,7 +68,16 @@ public class Test{
 #### Rule 11. clone 메소드는 신중하게 오버라이드 하자
 
 #### Rule 12. Comparable 인터페이스의 구현을 고려하자
+만일 comparable을 구현해 놓으면, 그 객체들의 배열을 정리하는 것은 Arrays.sort(a); 와 같이 쉽게 수행될 수 있다.
 
+**Comparable Interface**
+```java
+public interface Comparable<T> {
+  int compareTo(T t);
+}
+...
+public final class CaseInsensitiveString implements Comparable<CaseInsensitiveString> { ... }
+```
 
 
 
