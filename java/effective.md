@@ -81,7 +81,7 @@ public final class CaseInsensitiveString implements Comparable<CaseInsensitiveSt
 
 <br/>
 
-### 클래스와 인터페이스스
+### 클래스와 인터페이스
 
 #### Rule 13. 클래스와 멤버의 접근 권한은 최소화하라
 
@@ -97,11 +97,67 @@ public final class CaseInsensitiveString implements Comparable<CaseInsensitiveSt
 
 #### Rule 19. 인터페이스는 자료형을 정의할 때만 사용하라
 
+> 인터페이스를 구현하는 클래스를 만들게 되면, 그 인터페이스는 해당 클래스의 객체를 참조할 수 있는 자료형(type)역할을 하게 된다.
+> 이 기준에 미달하는 사례로는 소위 상수 인터페이스라는 것이 있다. 이런 인터페이스에는 메서드가 없고, static final 필드만 있다. 이런 것은 인터페이스를 잘못 사용한 것이다.
+**상수 인터페이스**
+```java
+public interface PhysicalConstants {
+  static final double AVOGADROS_NUMBER = 6.02214199e23;
+...
+}
+```
+위는 다음과 같이 유틸리티 클래스를 사용해 바꾸는 것이 바람직하다.
+**유틸리티 클래스**
+```java
+public class PhysicalConstants {
+   private PhysicalConstants() {} // 객체 생성을 막음
+   static final double AVOGADROS_NUMBER = 6.02214199e23;
+...
+}
+```
+
 #### Rule 20. 태그 달린 클래스 대신 클래스 계층을 활용하라
+**태그 달린 클래스의 예제**
+```java
+class Figure {
+    enum Shape { RECTANGLE, CIRCLE };
+
+    // 어떤 모양인지 나타내는 태그 필드
+    final Shape shape;
+
+    // 태그가 RECTANGLE 일 때만 사용되는 필드들
+    double length, width;
+
+    ...
+
+    // 사각형 생성자
+    Figure(double length, double width) {
+    ...
+    }
+}
+```
+위는 아래와 같이 바꾸는 것이 낫다다
+**태그 달린 클래스의 예제**
+```java
+abstract class Figure {
+    abstract double area();
+}
+
+class Circle extends Figure {
+...
+}
+```
 
 #### Rule 21. 전략을 표현하고 싶을 때는 함수 객체를 사용하라
 
 #### Rule 22. public class 안에는 public field를 두지 말고 접근자 메서드를 사용하라
+
+<br/>
+
+### 제네릭
+제네릭 : 선언부에 형인자가 포함된 클래스나 인터페이스
+
+#### Rule 23. 새 코드에는 무인자 제네리리
 
 
 
