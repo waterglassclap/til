@@ -19,6 +19,7 @@ Even if specific node **fails**, service must be served
 #### Partitions Tolerance
 Even if specific node **cannot reach another node**, service must be served
 
+
 ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Relational
 ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) Key-value
 ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Column-oriented
@@ -28,6 +29,7 @@ Even if specific node **cannot reach another node**, service must be served
 #### CA
 **pros :** show same data at same time, even if one node fails, service can be served
 **cons :** If specific node cannot reach another node, service cannot be served
+
 - ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) RDBMS(mysql, postgres, etc)
 - ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Aster Data
 - ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Greenplum
@@ -41,6 +43,7 @@ Even if specific node **cannot reach another node**, service must be served
 #### CP
 **pros :** show same data at same time, event if specific node cannot reach another node, service can be served
 **cons :** If one node fails, service cannot be served
+
 - ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) BigTable
 - ![#15FFFF](https://placehold.it/15/15FFFF/000000?text=+) MongoDB
 - ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) HBase
@@ -58,6 +61,7 @@ Even if specific node **cannot reach another node**, service must be served
 #### AP
 **pros :** event if specific node cannot reach another node or dies, service can be served
 **cons :** Might not show same data at the same time
+
 - ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Cassandra
 - ![#15FFFF](https://placehold.it/15/15FFFF/000000?text=+) CouchDB
 - ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) Voldemort
