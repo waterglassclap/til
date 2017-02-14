@@ -25,8 +25,13 @@ public class Test{
  
 * 일반 생성자처럼 클래스 이름을 부여하는게 아니라 함수 기능에 맞는 이름을 부여할 수 있다. (new Test vs Test.getInstance)
 * 생성할 때마다 객체를 새로 만들지 않기 때문에, 싱글톤 디자인에 적합
+// 싱글톤은 객체를 하나만 만들 수 있는 클래스다
 * 코드가 깔끔해질 수 있음
 
 
 #### Rule 2. 생성자 인자가 많을 때는 Builder pattern 적용을 고려하라
-#### Rule 2. 생성자 인자가 많을 때는 Builder pattern 적용을 고려하라
+
+#### Rule 3. private 생성자나 enum 타입을 사용해서 싱글톤의 특성을 유지하자
+
+#### Rule 4. private 생성자를 사용해서 인스턴스 생성을 못하게 하자
+
