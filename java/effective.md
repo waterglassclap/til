@@ -219,6 +219,36 @@ public static void main(String[] args) {
 ```
 이떄 Favorites 객체는 형 안전성을 보장한다. 다시말해, String 을 요청했는데 Integer를 반환한다거나 하지 않는다. 또한 다형성을 갖고 있다.
 
+<br/>
+
+### enum과 어노테이션
+
+#### Rule 30. int 상수 대신 enum을 사용하자
+
+#### Rule 31. ordinal 대신 객체 필드를 사용하라
+
+```java
+// ordinal을 남용한 사례 - 따라하면 곤란함
+public enum Ensemble {
+    SOLO, DUET, TRIO, QUARTET, QUINTET;
+
+    public int numberOfMusicians() { return ordinal() + 1;}
+}
+```
+위의 코드는 다음과 같이 바꾸는 것이 좋다
+```java
+// ordinal을 남용한 사례 - 따라하면 곤란함
+public enum Ensemble {
+    SOLO(1), DUET(2), TRIO(3), QUARTET(4), QUINTET(5);
+
+    private final int numberOfMusicians;
+    Ensemble(int size) {this. numberOfMusicians = size;}
+    public int numberOfMusicians() { return numberOfMusicians; }
+}
+```
+
+
+
 
 
 
