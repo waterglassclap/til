@@ -8,7 +8,6 @@
 
 
 #### Consistency
-
 Every node must **show** same data at same time
 
 
