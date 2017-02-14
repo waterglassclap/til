@@ -27,3 +27,6 @@ public class Test{
 * 생성할 때마다 객체를 새로 만들지 않기 때문에, 싱글톤 디자인에 적합
 * 코드가 깔끔해질 수 있음
 
+
+#### Rule 2. 생성자 인자가 많을 때는 Builder pattern 적용을 고려하라
+#### Rule 2. 생성자 인자가 많을 때는 Builder pattern 적용을 고려하라
