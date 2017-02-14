@@ -319,4 +319,41 @@ public enum BasicOperation implements Operation {
 ```
 이러면, BasicOperation은 enum 자료형이라 계승할 수 없지만 Operation은 인터페이스라 확장이 가능하다.
 
+#### Rule 35. 작명 패턴보다는 주석(annotation)을 사용하자
+e.g. JUnit testBlabla 말고 @..쓰기
+
+#### Rule 36. Override 주석을 일관성 있게 사용하자
+
+#### Rule 37. 자료형을 정의할 때 표식 인터페이스를 사용하라
+표식 인터페이스는 아무 메서드도 선언하지 않는 인터페이스다
+
+<br/>
+
+### 메서드
+
+#### Rule 38. 인자의 유효성을 검증하라
+
+#### Rule 39. 필요하다면 방어적 복사본을 만들라
+
+#### Rule 40. 메서드 시그니처는 신중하게 설계하라
+
+- convenience method를 제공하는데 너무 열 올리지 마라, 메서드가 너무 많으면 안좋음.
+- parameter list를 길게 만들지 마라. 자료형이 같은 인자들이 길게 연결된 인자 리스트는 특히 더 위험하다.
+- 인자의 자료형으로는 클래스보다 인터페이스가 좋다
+- 인자 자료형으로 boolean을 쓴느 것보다는, 원소가 2개인 enum 자료형을 쓰는 것이 낫다.
+
+#### Rule 41. 오버로딩 할 때는 주의하라
+
+#### Rule 42. varargs는 신중히 사용하라
+
+#### Rule 43. null 대신 빈 배열이나 컬렉션을 반환하라
+
+#### Rule 44. 모든 api 요소에 문서화 주석을 달라
+
+
+
+
+
+
+
 
