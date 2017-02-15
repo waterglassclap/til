@@ -1,4 +1,6 @@
-- LAN : Local Area Network
+
+###### LAN
+Local Area Network
 - WAN : Wide Area Network
 - Internet : TCP/IP 로 동작
 - Ethernet : CSMA/CD 로 동작
