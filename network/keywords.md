@@ -1,8 +1,10 @@
 ###### LAN
 Local Area Network
 
+
 ###### WAN
 Wide Area Network
+
 
 ###### Internet
 TCP/IP 로 동작
