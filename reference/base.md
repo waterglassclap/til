@@ -1,11 +1,24 @@
 ### How to Catch up
 
-#### RSS
-[https://feedly.com/i/my](https://feedly.com/i/my)
+#### Pages
 
-- feedly
-- 간편한데 모바일 잘 안되서 불편
-- 파도타기 ? 할 수 있음
+##### 나는프로그래머다
+- [https://ko-kr.facebook.com/iamprogrammer.io/](https://ko-kr.facebook.com/iamprogrammer.io/)
+- [https://iamprogrammer.io/](https://iamprogrammer.io/)
+- 핵유명, 좋음
+- rss로 구독해도 되는데 페북 페이지가 더 좋은 듯
+- q/a 페이지도 있고, 올라오는 내용들이 괜찮은 것 같음
+
+##### naver d2
+- [https://ko-kr.facebook.com/naverd2/](https://ko-kr.facebook.com/naverd2/)
+- [http://d2.naver.com/home](http://d2.naver.com/home)
+- 더이상의 자세한 설명은 생략한다
+
+
+##### 제이펍의 참 똑똑한 2비트 책 이야기
+- [http://jpub.tistory.com/rss](http://jpub.tistory.com/rss)
+- 이런 it 서적 페이지가 은근히 도움이 많이 됨
+- 그리고 온라인 서점 이런 데 주기적으로 들어가서 상위 랭크된 it 서적 훑어보는 게 경향 파악하는데 도움이 꽤 되는 듯
 
 
 ##### Bloter
@@ -57,3 +70,9 @@
 - 전반적인 it 소식
 - 영어 ㅜ
 
+
+#### Tools
+##### rss - feedly
+- [https://feedly.com/i/my](https://feedly.com/i/my)
+- 간편한데 모바일 잘 안되서 불편
+- 파도타기 ? 할 수 있음
