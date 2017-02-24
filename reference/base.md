@@ -12,7 +12,6 @@
 ##### naver d2
 - [https://ko-kr.facebook.com/naverd2/](https://ko-kr.facebook.com/naverd2/)
 - [http://d2.naver.com/home](http://d2.naver.com/home)
-- 더이상의 자세한 설명은 생략한다
 
 
 ##### 제이펍의 참 똑똑한 2비트 책 이야기
@@ -22,11 +21,13 @@
 - 그리고 온라인 서점 이런 데 주기적으로 들어가서 상위 랭크된 it 서적 훑어보는 게 경향 파악하는데 도움이 꽤 되는 듯
 - 이것도 사야할 것 같고 저것도 사야할 것 같은데, 그러면 끝이 없으니 잘 생각해보고 사는게 좋을 듯
 
+
 ##### GdG korea
 - [https://www.facebook.com/gdgkorea/](https://www.facebook.com/gdgkorea/)
 - google developer group korea
 - 내용은 잘 모르겠는데, 이벤트 이런거 올라오는 거 소식 잡는 용도로 많이 쓰는 듯
 - 여기 말고도 페이스북 밋업 페이지 같은거 많이 구독하면 좋을 듯
+
 
 ##### Bloter
 - [http://feeds.feedburner.com/Bloter](http://feeds.feedburner.com/Bloter)
@@ -76,6 +77,8 @@
 - 960k 팔로워 ㅎㄷ
 - 전반적인 it 소식
 - 영어 ㅜ
+
+<br/>
 
 ### a Little more forward..
 
