@@ -16,9 +16,11 @@
 
 
 ##### 제이펍의 참 똑똑한 2비트 책 이야기
+- [https://ko-kr.facebook.com/jeipub/](https://ko-kr.facebook.com/jeipub/)
 - [http://jpub.tistory.com/rss](http://jpub.tistory.com/rss)
 - 이런 it 서적 페이지가 은근히 도움이 많이 됨
 - 그리고 온라인 서점 이런 데 주기적으로 들어가서 상위 랭크된 it 서적 훑어보는 게 경향 파악하는데 도움이 꽤 되는 듯
+- 이것도 사야할 것 같고 저것도 사야할 것 같은데, 그러면 끝이 없으니 잘 생각해보고 사는게 좋을 듯
 
 
 ##### Bloter
