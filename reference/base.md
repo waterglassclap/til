@@ -22,6 +22,11 @@
 - 그리고 온라인 서점 이런 데 주기적으로 들어가서 상위 랭크된 it 서적 훑어보는 게 경향 파악하는데 도움이 꽤 되는 듯
 - 이것도 사야할 것 같고 저것도 사야할 것 같은데, 그러면 끝이 없으니 잘 생각해보고 사는게 좋을 듯
 
+##### GdG korea
+- [https://www.facebook.com/gdgkorea/](https://www.facebook.com/gdgkorea/)
+- google developer group korea
+- 내용은 잘 모르겠는데, 이벤트 이런거 올라오는 거 소식 잡는 용도로 많이 쓰는 듯
+- 여기 말고도 페이스북 밋업 페이지 같은거 많이 구독하면 좋을 듯
 
 ##### Bloter
 - [http://feeds.feedburner.com/Bloter](http://feeds.feedburner.com/Bloter)
@@ -74,6 +79,7 @@
 
 
 #### Tools
+
 ##### rss - feedly
 - [https://feedly.com/i/my](https://feedly.com/i/my)
 - 간편한데 모바일 잘 안되서 불편
