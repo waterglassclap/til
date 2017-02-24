@@ -1,6 +1,6 @@
 ### How to Catch up
 
-#### 1. RSS
+#### RSS
 [https://feedly.com/i/my](https://feedly.com/i/my)
 
 - feedly
@@ -40,19 +40,19 @@
 
 
 ##### Dzone
-- http://feeds.dzone.com/home
+- [http://feeds.dzone.com/home](http://feeds.dzone.com/home)
 - 영어 크리,, 하지만 극복하면 꽤 유용
 - 제목만 해석하고 키워드만 검색해서 봐도 도움
 
 
 ##### Infoq
-- https://www.infoq.com/feed
+- [https://www.infoq.com/feed](https://www.infoq.com/feed)
 - Dzone하고 비슷
 - dzone보다 약간 노잼
 
 
 ##### Wired
-- http://feeds.wired.com/wired/index
+- [http://feeds.wired.com/wired/index](http://feeds.wired.com/wired/index)
 - 960k 팔로워 ㅎㄷ
 - 전반적인 it 소식
 - 영어 ㅜ
