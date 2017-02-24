@@ -77,6 +77,21 @@
 - 전반적인 it 소식
 - 영어 ㅜ
 
+### a Little more forward..
+
+##### Github Trending
+- [https://github.com/trending](https://github.com/trending)
+- 일, 주, 월 단위
+- 깃헙에서 어떤 게 트렌딩하고 있는지 볼 수 있음
+- 일 단위로 보면 좀 정신없는 경향이 있는데, 그래도 프로젝트 이름 보고 괜찮다 싶은 건 뜯어보기 좋다
+- 그리고 딱히 그 프로젝트 아니더라도, 요즘 잘 되고 있는 프로젝트에 딸린 프로젝트들이 자주 올라와서 아 이게 뜨고 있구나 라는 걸 알기 좋음
+
+##### Github power
+- [https://github.com/showcases/projects-that-power-github](https://github.com/showcases/projects-that-power-github)
+
+##### Apache incubator
+- [http://incubator.apache.org/projects/](http://incubator.apache.org/projects/)
+
 
 #### Tools
 
@@ -89,3 +104,15 @@
 - [https://github.com/gollum/gollum](https://github.com/gollum/gollum)
 - markup 문서 편집 툴. 깃하고 연동해서 쓰면 블로그 이런것보다 나은 측면도 있는 듯.
 - 개인 계정에 회사관련 내용 올리지 말기
+
+
+#### ETCs
+
+##### rankings
+- [http://pypl.github.io/PYPL.html](http://pypl.github.io/PYPL.html)
+- [http://hotframeworks.com/](http://hotframeworks.com/)
+- [http://db-engines.com/en/ranking](http://db-engines.com/en/ranking)
+
+##### blogs
+- [http://bcho.tistory.com/1052](http://bcho.tistory.com/1052)
+- [http://han41858.tistory.com/6](http://han41858.tistory.com/6)
