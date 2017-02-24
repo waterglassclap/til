@@ -84,3 +84,8 @@
 - [https://feedly.com/i/my](https://feedly.com/i/my)
 - 간편한데 모바일 잘 안되서 불편
 - 파도타기 ? 할 수 있음
+
+##### gollum
+- [https://github.com/gollum/gollum](https://github.com/gollum/gollum)
+- markup 문서 편집 툴. 깃하고 연동해서 쓰면 블로그 이런것보다 나은 측면도 있는 듯.
+- 개인 계정에 회사관련 내용 올리지 말기
