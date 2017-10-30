@@ -7,18 +7,17 @@ The Closure Compiler : https://developers.google.com/closure/compiler/ is also v
 You can create a build process that uses these tools to minify and rename the development files and save them to a production directory.
 
 
-
 CSRF vs XSS
 http://terms.naver.com/entry.nhn?docId=3431919&cid=58437&categoryId=58437
-
-
 
 
 NPM
 http://wherethelightis.tistory.com/17
 
 
-
-
 GulpJS
 https://code.tutsplus.com/ko/tutorials/managing-your-build-tasks-with-gulpjs--net-36910
+
+
+Github Hook
+http://blog.nacyot.com/articles/2014-01-30-github-hook-api-slack-sample/
