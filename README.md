@@ -22,3 +22,7 @@ https://charsyam.wordpress.com/2013/04/28/%EB%B0%9C-%EB%B2%88%EC%97%AD-apache-hb
 
 MapReduce & BigTable
 http://px.tistory.com/308
+
+
+Bigtable 논문 분석
+http://blog.naver.com/spiccato/20093046316
