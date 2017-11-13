@@ -26,3 +26,7 @@ http://px.tistory.com/308
 
 Bigtable 논문 분석
 http://blog.naver.com/spiccato/20093046316
+
+
+리눅스 저널링
+http://blog.naver.com/bitnang/70186451113
