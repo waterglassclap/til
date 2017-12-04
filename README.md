@@ -46,3 +46,4 @@ http://energ.tistory.com/entry/Cluster-IO-Fencing-%E2%80%93-exclusion-strategy
 spring lifecycle
 http://zgundam.tistory.com/26
 http://javaslave.tistory.com/48
+https://stackoverflow.com/questions/11903053/difference-between-component-and-configuration-in-spring-3
