@@ -39,3 +39,10 @@ http://www.popit.kr/hadoop-namenode-%EC%9D%B4%EC%A4%91%ED%99%94-%EC%8B%9C-fencin
 
 i/o fencing
 http://energ.tistory.com/entry/Cluster-IO-Fencing-%E2%80%93-exclusion-strategy 
+
+
+
+
+spring lifecycle
+http://zgundam.tistory.com/26
+http://javaslave.tistory.com/48
