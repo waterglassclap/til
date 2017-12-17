@@ -56,3 +56,7 @@ spring lifecycle
 http://zgundam.tistory.com/26
 http://javaslave.tistory.com/48
 https://stackoverflow.com/questions/11903053/difference-between-component-and-configuration-in-spring-3
+
+
+java volatile
+http://jusungpark.tistory.com/4 
