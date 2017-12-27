@@ -35,6 +35,8 @@ http://blog.naver.com/bitnang/70186451113
 hbase namenode 이중화 시 fencing의 역할
 http://www.popit.kr/hadoop-namenode-%EC%9D%B4%EC%A4%91%ED%99%94-%EC%8B%9C-fencing-%EC%97%AD%ED%95%A0/
 
+server resiliency
+http://theeye.pe.kr/archives/2091
 
 
 
