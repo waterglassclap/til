@@ -47,6 +47,9 @@ Thread dump
 http://d2.naver.com/helloworld/10963 
 
 
+Java gc
+http://d2.naver.com/helloworld/1329 
+
 
 i/o fencing
 http://energ.tistory.com/entry/Cluster-IO-Fencing-%E2%80%93-exclusion-strategy 
