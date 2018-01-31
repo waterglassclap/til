@@ -21,3 +21,6 @@ https://code.tutsplus.com/ko/tutorials/managing-your-build-tasks-with-gulpjs--ne
 
 Github Hook
 http://blog.nacyot.com/articles/2014-01-30-github-hook-api-slack-sample/
+
+bean lifecycle
+http://javaslave.tistory.com/48
