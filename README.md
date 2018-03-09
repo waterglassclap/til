@@ -65,3 +65,7 @@ https://stackoverflow.com/questions/11903053/difference-between-component-and-co
 
 java volatile
 http://jusungpark.tistory.com/4 
+
+
+war 배포유형 3가지
+http://ecogeo.tistory.com/89
