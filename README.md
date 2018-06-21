@@ -69,3 +69,6 @@ http://jusungpark.tistory.com/4
 
 war 배포유형 3가지
 http://ecogeo.tistory.com/89
+
+hbase 구조
+https://www.slideshare.net/madvirus/hbase-29278429
