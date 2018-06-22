@@ -72,3 +72,6 @@ http://ecogeo.tistory.com/89
 
 hbase 구조
 https://www.slideshare.net/madvirus/hbase-29278429
+
+maven 상세
+http://www.egovframe.go.kr/wiki/doku.php?id=egovframework:dev:dep:build:maven
